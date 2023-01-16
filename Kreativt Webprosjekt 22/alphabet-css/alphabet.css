@@ -1,0 +1,167 @@
+body {
+  background-color: rgb(14, 102, 235);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+/* Alphabet */
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+
+div h2 {
+  margin: 0;
+}
+
+.letter + .letter {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.letter {
+  font-size: 55px;
+  transition: all 0.2s ease-in-out;
+}
+
+.letter:hover {
+  transform: scale(1.7);
+}
+
+#A:hover {
+  transform: translate(10px);
+}
+
+a {
+  text-decoration: none;
+}
+
+#blue {
+  color: rgb(5, 8, 175);
+}
+
+#red {
+  color: rgb(255, 0, 0);
+}
+
+#yellow {
+  color: rgb(237, 237, 53);
+}
+
+#green {
+  color: rgb(0, 255, 0);
+}
+
+#purple {
+  color: rgb(255, 0, 255);
+}
+
+/* Australia Map */
+#australia-map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  z-index: -3;
+}
+
+/* Text containers */
+.text-container {
+  position: absolute;
+  top: 25%;
+  width: 25%;
+  left: 5%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 15px;
+  z-index: 1;
+}
+
+/* Image container */
+.image-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 25%;
+  width: 25%;
+  right: 5%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 15px;
+}
+/* Audio Container */
+.audio-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 60%;
+  width: 25%;
+  right: 5%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 15px;
+}
+
+/* Tip container */
+.tip-container {
+  position: absolute;
+  top: 55%;
+  width: 25%;
+  right: 5%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 15px;
+  z-index: 1;
+  cursor: help;
+}
+
+/* Back Button */
+.back-button {
+  border: solid rgb(255, 255, 255) 5px;
+  background-color: rgb(233, 127, 5);
+  border-radius: 25%;
+  width: 240px;
+  height: 60px;
+  opacity: 100%;
+  cursor: pointer;
+  margin: 0px;
+
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+#button-design {
+  font-size: 25px;
+  font-family: Arial, "Helvetica", sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  position: relative;
+  bottom: -26%;
+  left: 4%;
+}
+
+/* Red pins Animation */
+
+@keyframes ripple {
+  0% {
+    opacity: 100%;
+    transform: scale(0.05);
+  }
+  100% {
+    opacity: 0%;
+    transform: scale(1.5);
+  }
+}

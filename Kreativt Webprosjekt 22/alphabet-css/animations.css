@@ -1,0 +1,926 @@
+/* Animations B */
+.bondi-surf {
+  position: absolute;
+  top: 32%;
+  left: 20%;
+  opacity: 0%;
+  animation: surfing 5s 1.5s 2 linear;
+}
+
+#surfer-dude {
+  width: 250px;
+  height: auto;
+}
+
+@keyframes surfing {
+  0% {
+    left: 20%;
+    top: 32%;
+    transform: scaleX(-1);
+    opacity: 100%;
+  }
+  14.28% {
+    left: 0%;
+    top: 42%;
+    transform: scale(1);
+  }
+  28.56% {
+    left: 2%;
+    top: 45%;
+    transform: scaleX(1);
+  }
+  42.84% {
+    left: 5%;
+    top: 52%;
+  }
+  57.12% {
+    left: 10%;
+    top: 60%;
+  }
+  71.40% {
+    left: 15%;
+    top: 65%;
+    transform: scaleX(1);
+  }
+  85.68% {
+    left: 25%;
+    top: 70%;
+    transform: scale(0);
+  }
+  90% {
+    left: 25%;
+    top: 70%;
+    transform: scale(0);
+  }
+  100% {
+    left: 20%;
+    top: 32%;
+    transform: scale(0) scaleX(-1);
+    opacity: 100%;
+  }
+}
+
+.pin-b {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 58%;
+  left: 61%;
+  z-index: 1;
+}
+
+.b-pin {
+  width: 50px;
+  height: 50px;
+  background: rgb(158, 3, 3);
+  border-radius: 50% 50% 50% 0%;
+  transform: perspective(35px) rotatex(20deg) rotateZ(-45deg);
+  box-shadow: -0.5px 0.5px 1.5px 0.5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: -80%;
+  left: -50%;
+  z-index: -1;
+}
+
+#small-ball-b {
+  background: rgb(255, 255, 255);
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  box-shadow: -0.3px 1px 5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.ripples-b {
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+
+  position: absolute;
+  top: 60%;
+  left: 46.5%;
+  z-index: -2;
+}
+
+.ripples-b:before,
+.ripples-b:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0 3px rgb(237, 31, 52);
+
+  animation: ripple 3s infinite linear;
+
+  position: absolute;
+}
+
+.ripples-b:after {
+  animation-delay: 1.2s;
+}
+
+/* Animations C */
+.pin-c {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 64%;
+  left: 57.7%;
+  z-index: 1;
+}
+
+.c-pin {
+  width: 50px;
+  height: 50px;
+  background: rgb(158, 3, 3);
+  border-radius: 50% 50% 50% 0%;
+  transform: perspective(35px) rotatex(20deg) rotateZ(-45deg);
+  box-shadow: -0.5px 0.5px 1.5px 0.5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: -80%;
+  left: -50%;
+  z-index: -1;
+}
+
+#small-ball-c {
+  background: rgb(255, 255, 255);
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  box-shadow: -0.3px 1px 5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.ripples-c {
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+
+  position: absolute;
+  top: 60%;
+  left: 46.5%;
+  z-index: -2;
+}
+
+.ripples-c:before,
+.ripples-c:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0 3px rgb(237, 31, 52);
+
+  animation: ripple 3s infinite linear;
+
+  position: absolute;
+}
+
+.ripples-c:after {
+  animation-delay: 1.2s;
+}
+
+/* Animations E */
+#emu:hover {
+  content: url(/img/e-picture2.jpeg);
+}
+
+/* Animations F */
+#flora {
+  animation: flora-go 2s ease-in;
+}
+
+@keyframes flora-go {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+/* Animations G */
+
+.pin-g {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 27%;
+  left: 61%;
+  z-index: 1;
+}
+
+.g-pin {
+  width: 50px;
+  height: 50px;
+  background: rgb(158, 3, 3);
+  border-radius: 50% 50% 50% 0%;
+  transform: perspective(35px) rotatex(20deg) rotateZ(-45deg);
+  box-shadow: -0.5px 0.5px 1.5px 0.5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: -80%;
+  left: -50%;
+  z-index: -1;
+}
+
+#small-ball-g {
+  background: rgb(255, 255, 255);
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  box-shadow: -0.3px 1px 5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.ripples-g {
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+
+  position: absolute;
+  top: 60%;
+  left: 46.5%;
+  z-index: -2;
+}
+
+.ripples-g:before,
+.ripples-g:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0 3px rgb(237, 31, 52);
+
+  animation: ripple 3s infinite linear;
+
+  position: absolute;
+}
+
+.ripples-g:after {
+  animation-delay: 1.2s;
+}
+
+/* Animations H */
+#hemsworth:hover {
+  animation: hemsworth-go 1s infinite ease-in-out;
+}
+
+@keyframes hemsworth-go {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  25% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  50% {
+    transform: translate(1px, 1px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  100% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+}
+
+/* Animations I */
+#steve {
+  top: 120px;
+  left: 160px;
+  z-index: 1;
+}
+
+#irwins {
+  top: 120px;
+  left: 160px;
+  animation: fade 7s;
+  animation-iteration-count: infinite;
+  z-index: 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Animations J */
+#jackman {
+  position: relative;
+  animation: jackman-go 2s 1 forwards running;
+}
+@keyframes jackman-go {
+  0% {
+    right: -50%;
+  }
+  50% {
+    right: 10%;
+  }
+  100% {
+    right: 0%;
+  }
+}
+
+/* Animations K */
+@keyframes jumping {
+  0% {
+    transform: translate3d(0, -90%, 0) scale3d(1, 1, 1);
+  }
+  40% {
+    transform: translate3d(0, 0%, 0) scale3d(0.7, 1.5, 1);
+  }
+  100% {
+    transform: translate3d(0, 20%, 0) scale3d(1.5, 0.7, 1);
+  }
+}
+.jumping {
+  transform-origin: 50%;
+  animation: jumping 0.5s linear alternate infinite;
+}
+
+/* Animations M */
+#melbourne {
+  position: relative;
+  animation: jackman-go 2s 1 forwards running;
+}
+
+.pin-m {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 68%;
+  left: 54.3%;
+  z-index: 1;
+}
+
+.m-pin {
+  width: 50px;
+  height: 50px;
+  background: rgb(158, 3, 3);
+  border-radius: 50% 50% 50% 0%;
+  transform: perspective(35px) rotatex(20deg) rotateZ(-45deg);
+  box-shadow: -0.5px 0.5px 1.5px 0.5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: -80%;
+  left: -50%;
+  z-index: -1;
+}
+
+#small-ball-m {
+  background: rgb(255, 255, 255);
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  box-shadow: -0.3px 1px 5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.ripples-m {
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+
+  position: absolute;
+  top: 60%;
+  left: 46.5%;
+  z-index: -2;
+}
+
+.ripples-m:before,
+.ripples-m:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0 3px rgb(237, 31, 52);
+
+  animation: ripple 3s infinite linear;
+
+  position: absolute;
+}
+
+.ripples-m:after {
+  animation-delay: 1.2s;
+}
+
+/* Animations N */
+.perry:hover {
+  animation: flip-perry 2s 1 alternate linear;
+}
+
+@keyframes flip-perry {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Animations P */
+.pin-p {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 52%;
+  left: 31.2%;
+  z-index: 1;
+}
+
+.p-pin {
+  width: 50px;
+  height: 50px;
+  background: rgb(158, 3, 3);
+  border-radius: 50% 50% 50% 0%;
+  transform: perspective(35px) rotatex(20deg) rotateZ(-45deg);
+  box-shadow: -0.5px 0.5px 1.5px 0.5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: -80%;
+  left: -50%;
+  z-index: -1;
+}
+
+#small-ball-p {
+  background: rgb(255, 255, 255);
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  box-shadow: -0.3px 1px 5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.ripples-p {
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+
+  position: absolute;
+  top: 60%;
+  left: 46.5%;
+  z-index: -2;
+}
+
+.ripples-p:before,
+.ripples-p:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0 3px rgb(237, 31, 52);
+
+  animation: ripple 3s infinite linear;
+
+  position: absolute;
+}
+
+.ripples-p:after {
+  animation-delay: 1.2s;
+}
+
+#perth:hover {
+  animation: perth-shake 1s infinite ease-in-out;
+}
+
+@keyframes perth-shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  25% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  50% {
+    transform: translate(1px, 1px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  100% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+}
+/* Animations Q */
+#quokka:hover {
+  animation: rotate-quokka 3.5s 1 forwards ease-in-out;
+}
+
+@keyframes rotate-quokka {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(25deg);
+  }
+  75% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: scale(2.5);
+  }
+}
+
+/* Animations R */
+#crocodile {
+  position: relative;
+  right: 80%;
+  animation: crocodile 20s 1 forwards running;
+}
+
+@keyframes crocodile {
+  0% {
+    right: 300%;
+  }
+  50% {
+    right: 50%;
+  }
+  100% {
+    right: 5%;
+  }
+}
+
+/* Animations S */
+#sydney-inside {
+  top: 120px;
+  left: 160px;
+  z-index: 1;
+}
+
+#sydney {
+  top: 120px;
+  left: 160px;
+  animation: fade 15s;
+  z-index: 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.pin-s {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 58%;
+  left: 61%;
+  z-index: 1;
+}
+
+.s-pin {
+  width: 50px;
+  height: 50px;
+  background: rgb(158, 3, 3);
+  border-radius: 50% 50% 50% 0%;
+  transform: perspective(35px) rotatex(20deg) rotateZ(-45deg);
+  box-shadow: -0.5px 0.5px 1.5px 0.5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: -80%;
+  left: -50%;
+  z-index: -1;
+}
+
+#small-ball-s {
+  background: rgb(255, 255, 255);
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  box-shadow: -0.3px 1px 5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.ripples-s {
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+
+  position: absolute;
+  top: 60%;
+  left: 46.5%;
+  z-index: -2;
+}
+
+.ripples-s:before,
+.ripples-s:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0 3px rgb(237, 31, 52);
+
+  animation: ripple 3s infinite linear;
+
+  position: absolute;
+}
+
+.ripples-s:after {
+  animation-delay: 1.2s;
+}
+
+/* Animations U */
+
+.pin-u {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  z-index: 1;
+}
+
+.u-pin {
+  width: 50px;
+  height: 50px;
+  background: rgb(158, 3, 3);
+  border-radius: 50% 50% 50% 0%;
+  transform: perspective(35px) rotatex(20deg) rotateZ(-45deg);
+  box-shadow: -0.5px 0.5px 1.5px 0.5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: -80%;
+  left: -50%;
+  z-index: -1;
+}
+
+#small-ball-u {
+  background: rgb(255, 255, 255);
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  box-shadow: -0.3px 1px 5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.ripples-u {
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+
+  position: absolute;
+  top: 60%;
+  left: 46.5%;
+  z-index: -2;
+}
+
+.ripples-u:before,
+.ripples-u:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0 3px rgb(237, 31, 52);
+
+  animation: ripple 3s infinite linear;
+
+  position: absolute;
+}
+
+.ripples-u:after {
+  animation-delay: 1.2s;
+}
+
+/* Animations U */
+#flag {
+  top: 120px;
+  left: 160px;
+  z-index: 1;
+}
+
+#aboriginals {
+  top: 120px;
+  left: 160px;
+  animation: fade 15s;
+  z-index: 1;
+}
+
+#boomerang {
+  position: absolute;
+  top: 10%;
+  right: -50%;
+  animation: moving-boom 4s forwards ease-in-out 3,
+    spin-boom 250ms ease-out infinite;
+  z-index: 0;
+  /* animation-play-state: paused; */
+}
+
+@keyframes moving-boom {
+  0% {
+    right: -50%;
+  }
+  40% {
+    right: 95%;
+  }
+  65% {
+    top: 70%;
+    right: 35%;
+  }
+  100% {
+    right: -50%;
+  }
+}
+
+@keyframes spin-boom {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animations V */
+#toast:hover {
+  content: url(/img/v-picture1.png);
+}
+
+/* Animations W */
+
+.pin-w {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 58%;
+  left: 54%;
+  z-index: 1;
+}
+
+.w-pin {
+  width: 50px;
+  height: 50px;
+  background: rgb(158, 3, 3);
+  border-radius: 50% 50% 50% 0%;
+  transform: perspective(35px) rotatex(20deg) rotateZ(-45deg);
+  box-shadow: -0.5px 0.5px 1.5px 0.5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: -80%;
+  left: -50%;
+  z-index: -1;
+}
+
+#small-ball-w {
+  background: rgb(255, 255, 255);
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  box-shadow: -0.3px 1px 5px rgb(61, 61, 61);
+
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.ripples-w {
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+
+  position: absolute;
+  top: 60%;
+  left: 46.5%;
+  z-index: -2;
+}
+
+.ripples-w:before,
+.ripples-w:after {
+  content: "";
+  width: 55px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0 3px rgb(230, 43, 43);
+
+  animation: ripple 3s infinite linear;
+
+  position: absolute;
+}
+
+.ripples-w:after {
+  animation-delay: 1.2s;
+}
+
+/* Animations X */
+#pear:hover {
+  animation: pear-shake 1s infinite ease-in-out;
+}
+
+@keyframes pear-shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  25% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  50% {
+    transform: translate(1px, 1px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  100% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+}
+
+/* Animations Y */
+#yabby1:hover {
+  animation: yabby1-spin 5s ease-in-out;
+}
+
+#yabby2:hover {
+  animation: yabby1-spin 5s ease-in-out reverse;
+}
+
+@keyframes yabby1-spin {
+  0% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(0.5) rotate(-180deg);
+  }
+  66% {
+    transform: scale(1.5) rotate(0deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Transitions A, C, G, O, T, W, OE, AA */
+#flag:hover,
+#canberra:hover,
+#gbreef:hover,
+#oceania:hover,
+#uluru:hover,
+#willandra:hover,
+#desert:hover,
+#winter:hover {
+  transform: scale(1.4);
+  transition: 1s ease-in-out;
+}
+
+/* Transitions Z, AE */
+#sink-man:hover,
+#frank1:hover,
+#frank2:hover {
+  transform: rotate(180deg) scale(1.1);
+  transition: 2s ease-in-out;
+}
